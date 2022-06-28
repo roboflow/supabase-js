@@ -1134,17 +1134,17 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@supabase/gotrue-js@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.6.0.tgz#114a510eecc3ccc342549c2ece2c74fc7a2b63ca"
-  integrity sha512-dlaadRUb/1L65cyovDqHZLbnecM2kHVYyu/fH6ePaQdNq4NJJUprJY/PqhrHDtCP2LByCfd9GBcWq35bXOzJ+A==
+"@supabase/gotrue-js@^1.10.1":
+  version "1.22.17"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.22.17.tgz#3892294aa24612d9a96c5779c51f0c732fb77066"
+  integrity sha512-IF5iJZgz0EBjWB/lx8GNMPTjw7ld1of774urSKbi+xw6PU5pb3tGcHsUfl6J12NlCXWiVQE53vJjCxKfh8nrwg==
   dependencies:
     cross-fetch "^3.0.6"
 
-"@supabase/postgrest-js@^0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@supabase/postgrest-js/-/postgrest-js-0.21.1.tgz#6e8f49558cbb9585c29e3bbf023251a34c0da8d5"
-  integrity sha512-KHM+cDaxI5iIXl8uXQPsxjRqZHRnltav4Yq8juehn3wkXxsZS01LT6E3zdGn401a/yZgiJJWAp0m31BAql27vg==
+"@supabase/postgrest-js@^0.24.0":
+  version "0.24.5"
+  resolved "https://registry.yarnpkg.com/@supabase/postgrest-js/-/postgrest-js-0.24.5.tgz#bfad12442bd7eef2e44d7698c08f3cd72e63f712"
+  integrity sha512-DJWynRWLIVSnEHGWsPoLd7hjVO9MekPPWHwKUX/8uJnRS+SGj61EnvC5EIB2DkmSQSO0HJHXRt90nwvnTG/YVA==
   dependencies:
     cross-fetch "^3.0.6"
 
@@ -1158,10 +1158,10 @@
     websocket "^1.0.31"
 
 "@supabase/supabase-js@file:../..":
-  version "0.0.0"
+  version "1.0.0"
   dependencies:
-    "@supabase/gotrue-js" "^1.6.0"
-    "@supabase/postgrest-js" "^0.21.1"
+    "@supabase/gotrue-js" "^1.10.1"
+    "@supabase/postgrest-js" "^0.24.0"
     "@supabase/realtime-js" "^1.0.6"
 
 "@types/json-schema@^7.0.5":
@@ -3392,9 +3392,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 minipass-collect@^1.0.2:
   version "1.0.2"
